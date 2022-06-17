@@ -12,7 +12,7 @@ int main(void)
 
 	my_pid = getpid();
 	printf("hijordan %u\n", my_pid);
-	my_pid = getppid();
+	my_pid = getpid();
 	printf("padre %u\n", my_pid);
 	return (0);
 }
