@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
+#include <main.h>
 
 /**
  * main - PID
@@ -12,7 +11,7 @@ int main(void)
 
 	my_pid = getpid();
 	printf("hijordan %u\n", my_pid);
-	my_pid = getpid();
+	my_pid = getppid();
 	printf("padre %u\n", my_pid);
 	return (0);
 }
